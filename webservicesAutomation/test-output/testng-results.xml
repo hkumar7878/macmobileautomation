@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23359" started-at="2019-09-02T04:10:39Z" finished-at="2019-09-02T04:11:02Z">
+    <groups>
+    </groups>
+    <test name="Android" duration-ms="23359" started-at="2019-09-02T04:10:39Z" finished-at="2019-09-02T04:11:02Z">
+      <class name="com.mobile.runners.Scenario1_MiddleWare_Parent_Category_Verification">
+        <test-method status="PASS" signature="deviceSetUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.mobile.runners.Scenario1_MiddleWare_Parent_Category_Verification@69a3d1d]" name="deviceSetUp" is-config="true" duration-ms="9610" started-at="2019-09-02T16:10:39Z" finished-at="2019-09-02T16:10:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung S9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[22add29822017ece]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deviceSetUp -->
+        <test-method status="PASS" signature="runCuke()[pri:0, instance:com.mobile.runners.Scenario1_MiddleWare_Parent_Category_Verification@69a3d1d]" name="runCuke" duration-ms="13742" started-at="2019-09-02T16:10:48Z" finished-at="2019-09-02T16:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCuke -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.mobile.runners.Scenario1_MiddleWare_Parent_Category_Verification@69a3d1d]" name="quitDriver" is-config="true" duration-ms="0" started-at="2019-09-02T16:11:02Z" finished-at="2019-09-02T16:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.mobile.runners.Scenario1_MiddleWare_Parent_Category_Verification -->
+    </test> <!-- Android -->
+  </suite> <!-- Suite -->
+</testng-results>

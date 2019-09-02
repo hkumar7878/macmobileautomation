@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="com.cucumber.custoemlisteners.CustomerListener" />
+	<listener class-name="com.cucumber.custoemlisteners.RetryListener" />
+</listeners>
+
+<test thread-count="5" name="Android">
+  <parameter name="deviceName_" value="Samsung S9" />
+   <!-- <parameter name="UUID_" value="42003a0fd3148479" /> -->
+     <parameter name="UUID_" value="22add29822017ece" /> 
+  <parameter name="platformVersion_" value="9.0" /> 
+    <classes>
+      <class name="com.mobile.runners.Scenario1_MiddleWare_Parent_Category_Verification"/>   
+    </classes>
+  </test>
+</suite> <!-- Suite -->
+
+
